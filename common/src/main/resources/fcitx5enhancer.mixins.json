@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cn.hanye.fcitx5enhancer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "KeyboardMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

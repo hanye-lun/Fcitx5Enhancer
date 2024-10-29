@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fcitx5enhancer",
+  "version": "${version}",
+  "name": "Fcitx5Enhancer",
+  "description": "",
+  "authors": [
+    "XIAYM-gh"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/fcitx5enhancer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cn.hanye.fcitx5enhancer.fabric.Fcitx5enhancerFabric"
+    ],
+    "client": [
+      "cn.hanye.fcitx5enhancer.fabric.client.Fcitx5enhancerFabricClient"
+    ]
+  },
+  "mixins": [
+    "fcitx5enhancer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
